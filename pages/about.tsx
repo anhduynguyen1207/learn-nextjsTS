@@ -1,5 +1,3 @@
-
-import Header from '@/components/common/header';
 import { useRouter } from 'next/router';
 import * as React from 'react';
 import { GetStaticProps } from 'next';
@@ -39,7 +37,7 @@ export default function AboutPage(props: AboutPageProps) {
   return (
     <Box>
       <Typography component='h1' variant="h3" color="primary.main">About Page</Typography>
-      <Header />
+
       <ul>
         {/* {postLists.map((post: any) => <li key={post.id}>{post.title}</li>)} */}
         {postLists.map((post: any) => (
