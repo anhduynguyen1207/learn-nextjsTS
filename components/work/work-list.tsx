@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react';
-import { Works } from '@/models'
-import { Box, Container, Stack, Typography, Link as MuiLink, Divider } from '@mui/material';
+import { Works } from '@/models';
+import { Box, Divider } from '@mui/material';
+import { Fragment } from 'react';
 import { WorkCard } from './work-card';
 export interface WorkListProps {
     workList: Works[];

@@ -1,8 +1,5 @@
-import { Box, Container, Stack, Typography, Link as MuiLink } from '@mui/material';
-import Link from 'next/link';
-import * as React from 'react';
-import { PostCard } from './post-card';
 import { Works } from '@/models';
+import { Box, Container, Typography } from '@mui/material';
 import WorkList from '../work/work-list';
 
 

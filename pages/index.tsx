@@ -14,7 +14,7 @@ const Home: NextPageWithLayout = () => {
       <Seo data={{
         title: 'NextJS Tutorials | AnhDuy',
         description: 'Learning step by step to build a full CRUD website using NextJS for beginer',
-        url: 'learn-nexjs11-71tu6xxvs-anhduynguyen1207.vercel.app',
+        url: 'https://learn-nextjs-ts-mu.vercel.app/',
         thumbnailUrl: 'https://res.cloudinary.com/dt1ufhjfc/image/upload/v1692028097/learn-nexjs/nextjs_lzpm99.png',
       }} />
       <HeroSection />

@@ -16,13 +16,13 @@ export function HeroSection() {
                         <Typography mb={{ xs: 3.5, md: 5 }}>
                             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                         </Typography>
-                        <Button variant="contained" color="primary" size='large'>Download Resume</Button>
+                        <Button sx={{ mb: 3 }} variant="contained" color="primary" size='large' >Download Resume</Button>
                     </Box>
                     <Box sx={{ minWidth: '240px', boxShadow: '-5px 13px ', color: 'secondary.light', borderRadius: '50%' }} >
                         <Image src={avatar} layout='responsive' alt='avatar' />
                     </Box>
                 </Stack>
             </Container>
-        </Box>
+        </Box >
     );
 }
